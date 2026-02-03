@@ -19,17 +19,25 @@ It can be reused as a compact UI for battery-powered projects such as power bank
   - `ConfigDisplay.h` – hardware mapping  
   - `vape_display.ino` – driver and demo logic
 
-## Hardware concept
+## Hardware
+
+This project uses the charlieplexed **SY-D66Q-LED** display module.
+
+**Hardware concept**
 
 Each LED is addressed by driving:
+
 - one pin **LOW**
 - one pin **HIGH**
 - all others **Hi-Z (input)**
 
 Example AB notation:  
-`43` → pin 4 LOW, pin 3 HIGH.
+`43 → pin 4 LOW, pin 3 HIGH`
 
 The pin order in `DISPLAY_PINS[]` must match your wiring.
+
+🛠 **Full hardware description, photos and wiring details:**  
+🧰 [hardware.md](hardware.md)
 
 ## Usage
 
