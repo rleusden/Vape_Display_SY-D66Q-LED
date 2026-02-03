@@ -61,3 +61,11 @@ setDrop(true,false,true,false); // custom drop color
 
 Mapping may differ between hardware revisions.
 Feel free to submit your own ConfigDisplay.h variants or improvements.
+
+## Why GPL-3.0?
+
+This project aims to enable the reuse of discarded vape displays in open hardware projects.
+To ensure improvements and new mappings remain available to the community,
+the code is published under GPL-3.0.
+
+Commercial use is allowed, but modifications must remain open source.
