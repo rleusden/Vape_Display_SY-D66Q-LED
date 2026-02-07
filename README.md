@@ -1,10 +1,11 @@
 # SY-D66Q-LED Vape Display Driver (Arduino)
 
 This project provides an open-source Arduino driver for the **SY-D66Q-LED** display module commonly found in vape devices.  
-The display is a **charlieplexed LED module** with two 7-segment digits, battery level indicators, icons, and a multicolor drop symbol.  
-It can be reused as a compact UI for battery-powered projects such as power banks, chargers, or energy monitors (e.g., LTC2944 based).
+The display is a **charlieplexed LED module** with two 7-segment digits, battery level indicators, icons, and a multi-segment drop symbol.  
+It can be reused as a compact UI for battery-powered projects such as power banks, chargers, or energy monitors (e.g., LTC2944-based).
 
-## Goal: Give these discarded vape displays a second life in useful DIY electronics 💚
+## Goal: 
+Give these discarded vape displays a second life in useful DIY electronics 💚
 
 ## Features
 
@@ -50,7 +51,7 @@ The pin order in `DISPLAY_PINS[]` must match your wiring.
 showPercent(73);        // show 73%
 setCharging(true);      // thunder icon
 setLevelBars(percent);  // 4-step battery bar with low-battery blink
-setDrop(true,false,true,false); // custom drop color
+setDrop(true,false,true,false); // custom drop 4 segments
 ```
 ##  Typical applications
 
